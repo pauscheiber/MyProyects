@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #fff;
+}
+
+header {
+    background-color: #0c0109;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icono {
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contacto {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foto {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    border: 0.2rem solid;
+    border-color: #fff;
+}
+
+h1 {
+    font-weight: 900;
+    padding: 2rem;
+}
+
+main {
+    background-color: #1d0717ea;
+}
+
+section {
+    justify-items: center;
+    padding: 4rem;
+}
+
+section h2 {
+    padding: 1rem
+}
+
+.card {
+    background-color: #a64d7a54;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem;
+    justify-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #fff;
+    padding: 0.2rem;
+    transition: all 0.3s
+}
+
+h3:hover {
+    text-shadow: 0 4px 10px #1A1A1D;
+}
+
+.logo {
+    display: inline-flex;
+    padding: 3rem;
+}
+
+.logo img {
+    width: 5rem;
+    height: 5rem;
+}
+
+footer {
+    background-color: #0c0109;
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+footer div {
+    justify-items: center;
+}
+
+footer a {
+    color: gray;
+    padding-inline: 1rem;
+}
+
+.contacto-footer {
+    display: inline-flex;
+    justify-items: center;
+}
+
+@media (max-width: 600px) {
+
+    header div {
+        padding-top: 5rem;
+    }
+
+    nav ul li {
+        padding: 1rem;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logo {
+        padding: 1.5rem;
+    }
+}
